@@ -9,6 +9,7 @@ class Shoe
     if !BRANDS.include?(@brand)
       BRANDS << @brand
     end
+    binding.pry 
   end
 
   def cobble
